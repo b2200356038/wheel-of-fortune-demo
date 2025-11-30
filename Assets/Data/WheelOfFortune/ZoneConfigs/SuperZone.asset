@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c633c4c9ce190324cb260eb5dd8657ea, type: 3}
+  m_Name: SuperZone
+  m_EditorClassIdentifier: 
+  zoneType: 2
+  spinType: 1
+  spinName: GOLDEN SPIN
+  maxMultiplier: 10
+  rewardPool:
+  - item: {fileID: 11400000, guid: bc8d50a087d72f14e91b64c011bce640, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 1
+  - item: {fileID: 11400000, guid: 5386cad6750abad43ac23bb196340ae2, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 0bc9ecd254da882419916db6b7cb091c, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: ed2914de437eb7340bbe8b8862738988, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: c65d2a19f30be7b478c8cc5d4c1dd25b, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 2b1580c02854d944da1ae8d5c2e6ae98, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: c52d57fae13b6e14ab77c9605c21600a, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: a57480dcf47bf034caee5f7218beac73, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 6f5dfcdad5a23684d97ac51bd1aa009f, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 14b110c4ef2d84c45b5e9cd5e35c369c, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 65d46668ae268634d833101fa199581a, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 5d242c23602eedf489ffd823ca35f681, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 7ff20fd981136774bbe7b887023455c9, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 1
+  - item: {fileID: 11400000, guid: 026204d5b7d3eb54d899d0e12ab7c6bc, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 0f4bef8c1232f6b49ac2a3da5c37e250, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: e7bca17b9039d95478c95cdb8d6c0838, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 87acecd180a68644ab3db183a4e63050, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: 3edf912e02b4b0c49a55705eb90a0370, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: a029e8473071e6f429b86e0568d007db, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: c8f7f201b42e89e479fa16161752cd90, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  - item: {fileID: 11400000, guid: bc8d50a087d72f14e91b64c011bce640, type: 2}
+    isGuaranteed: 0
+    isSuperZoneExclusive: 0
+  rarityDropRate:
+    commonRate: 60
+    rareRate: 25
+    epicRate: 10
+    legendaryRate: 5
+  hasBomb: 0
+  bombCount: 0
+  bombIcon: {fileID: 0}
+  spinBaseSprite: {fileID: 21300000, guid: bdafedcf7bb66494cb5bf67f9a6f15bd, type: 3}
+  spinIndicatorSprite: {fileID: 21300000, guid: 332d95b4b6e001d4fb7ec2c95e90e9e5,
+    type: 3}
+  textColor: {r: 1, g: 0.96935785, b: 0.26274514, a: 1}
+  levelTextColor: {r: 0.882353, g: 0.72156864, b: 0.2627451, a: 1}
+  levelTextColorCurrent: {r: 0, g: 0, b: 0, a: 1}
+  levelTextColorPassed: {r: 0.29803923, g: 0.24705884, b: 0.16470589, a: 1}
+  levelBackgroundColor: {r: 0.882353, g: 0.72156864, b: 0.2627451, a: 1}
